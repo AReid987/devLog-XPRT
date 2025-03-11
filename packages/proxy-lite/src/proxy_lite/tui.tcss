@@ -1,0 +1,41 @@
+/* packages/proxy-lite/src/proxy_lite/tui.tcss */
+ProxyLiteApp {
+    background: $panel;
+}
+
+Screen {
+    background: $panel;
+}
+
+Header {
+    dock: top;
+    background: $primary;
+    color: $text;
+}
+
+Footer {
+    dock: bottom;
+    background: $primary;
+    color: $text;
+}
+
+RichLog {
+    border: round $secondary;
+    padding: 1;
+    height: auto;
+}
+
+TabbedContent {
+    dock: top;
+    height: auto;
+}
+
+TabPane {
+    background: $panel;
+}
+
+Image {
+    border: round $secondary;
+    height: auto;
+    width: auto;
+}

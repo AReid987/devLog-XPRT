@@ -1,0 +1,23 @@
+environment:
+  name: webbrowser
+  annotate_image: true
+  screenshot_delay: 2.0
+  viewport_width: 1280
+  viewport_height: 1920
+  include_poi_text: true
+  headless: false
+  homepage: https://www.google.com
+  keep_original_image: true
+solver:
+  name: simple
+  agent:
+    name: proxy_lite
+    client:
+      name: convergence
+      model_id: convergence-ai/proxy-lite-3b
+      api_base: https://convergence-ai-demo-api.hf.space/v1
+local_view: true
+task_timeout: 1800
+environment_timeout: 1800
+action_timeout: 1800
+verbose: true
