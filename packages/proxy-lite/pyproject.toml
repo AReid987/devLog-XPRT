@@ -65,7 +65,7 @@ extend-immutable-calls = [
 ]
 
 [tool.uv.sources]
-transformers = { git = "https://github.com/huggingface/transformers.git", rev = "336dc69d63d56f232a183a3e7f52790429b871ef" }
+transformers = { git = "https://github.com/huggingface/transformers.git", rev = "c119ec3cc37ab69642f39cca2de4187714002b08" }
 
 
 [tool.pdm]
